@@ -1,0 +1,21 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.box {
+    margin: 5px auto;
+    width: 1140px;
+    height:700px ;   
+    display: flex;
+    flex-flow: column-reverse wrap;
+    align-items: center;
+
+}
+.mini_box{
+width: 150px;
+height: 100px;
+background-color: blueviolet;
+margin: 1px;
+flex-flow : column-reverse wrap
+}
